@@ -1,12 +1,30 @@
-.movie_poster{
-  width: 150px;
-  height: 221px;
+
+body{
+  text-align: center;
+  padding: 10vh;
+  background-color: white;
 }
 
-#container{
-
+.movie_poster{
+  width: 100%;
 }
 
 #center_column{
-  
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  #container {
+    width: 100%;
+  }
+  #center_column {
+    width: 300px;
+    margin: auto;
+  }
+  .movie_poster{
+    width: 100%;
+  }
 }
